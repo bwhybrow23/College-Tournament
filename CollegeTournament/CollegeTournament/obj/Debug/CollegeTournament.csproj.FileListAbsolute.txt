@@ -1,0 +1,11 @@
+C:\Users\stent\OneDrive - South Gloucestershire and Stroud College\2. Programming\2. College Tournament\CollegeTournament\CollegeTournament\bin\Debug\CollegeTournament.exe.config
+C:\Users\stent\OneDrive - South Gloucestershire and Stroud College\2. Programming\2. College Tournament\CollegeTournament\CollegeTournament\bin\Debug\CollegeTournament.exe
+C:\Users\stent\OneDrive - South Gloucestershire and Stroud College\2. Programming\2. College Tournament\CollegeTournament\CollegeTournament\bin\Debug\CollegeTournament.pdb
+C:\Users\stent\OneDrive - South Gloucestershire and Stroud College\2. Programming\2. College Tournament\CollegeTournament\CollegeTournament\obj\Debug\CollegeTournament.csprojAssemblyReference.cache
+C:\Users\stent\OneDrive - South Gloucestershire and Stroud College\2. Programming\2. College Tournament\CollegeTournament\CollegeTournament\obj\Debug\CollegeTournament.Properties.Resources.resources
+C:\Users\stent\OneDrive - South Gloucestershire and Stroud College\2. Programming\2. College Tournament\CollegeTournament\CollegeTournament\obj\Debug\CollegeTournament.csproj.GenerateResource.cache
+C:\Users\stent\OneDrive - South Gloucestershire and Stroud College\2. Programming\2. College Tournament\CollegeTournament\CollegeTournament\obj\Debug\CollegeTournament.csproj.CoreCompileInputs.cache
+C:\Users\stent\OneDrive - South Gloucestershire and Stroud College\2. Programming\2. College Tournament\CollegeTournament\CollegeTournament\obj\Debug\CollegeTournament.exe
+C:\Users\stent\OneDrive - South Gloucestershire and Stroud College\2. Programming\2. College Tournament\CollegeTournament\CollegeTournament\obj\Debug\CollegeTournament.pdb
+C:\Users\stent\OneDrive - South Gloucestershire and Stroud College\2. Programming\2. College Tournament\CollegeTournament\CollegeTournament\obj\Debug\CollegeTournament.teamForm.resources
+C:\Users\stent\OneDrive - South Gloucestershire and Stroud College\2. Programming\2. College Tournament\CollegeTournament\CollegeTournament\obj\Debug\CollegeTournament.IndividualForm.resources
