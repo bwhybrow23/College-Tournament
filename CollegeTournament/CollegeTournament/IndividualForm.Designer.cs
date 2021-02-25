@@ -52,6 +52,7 @@ namespace CollegeTournament
             this.txt_importData.TabIndex = 43;
             this.txt_importData.Text = "Import Data";
             this.txt_importData.UseVisualStyleBackColor = true;
+            this.txt_importData.Click += new System.EventHandler(this.txt_importData_Click);
             // 
             // btn_exportData
             // 
@@ -62,6 +63,7 @@ namespace CollegeTournament
             this.btn_exportData.TabIndex = 42;
             this.btn_exportData.Text = "Export Data";
             this.btn_exportData.UseVisualStyleBackColor = true;
+            this.btn_exportData.Click += new System.EventHandler(this.btn_exportData_Click);
             // 
             // btn_switchToTeam
             // 
@@ -83,6 +85,7 @@ namespace CollegeTournament
             this.btn_calculateWinner.TabIndex = 40;
             this.btn_calculateWinner.Text = "Calculate Winner";
             this.btn_calculateWinner.UseVisualStyleBackColor = true;
+            this.btn_calculateWinner.Click += new System.EventHandler(this.btn_calculateWinner_Click_1);
             // 
             // btn_resetScores
             // 
@@ -93,6 +96,7 @@ namespace CollegeTournament
             this.btn_resetScores.TabIndex = 39;
             this.btn_resetScores.Text = "Reset Scores";
             this.btn_resetScores.UseVisualStyleBackColor = true;
+            this.btn_resetScores.Click += new System.EventHandler(this.btn_resetScores_Click_1);
             // 
             // lbl_teamScores
             // 
@@ -122,6 +126,7 @@ namespace CollegeTournament
             this.txt_individualName_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_individualName_4.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_individualName_4.Location = new System.Drawing.Point(63, 422);
+            this.txt_individualName_4.MaxLength = 20;
             this.txt_individualName_4.Name = "txt_individualName_4";
             this.txt_individualName_4.Size = new System.Drawing.Size(392, 47);
             this.txt_individualName_4.TabIndex = 36;
@@ -132,6 +137,7 @@ namespace CollegeTournament
             this.txt_individualName_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_individualName_3.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_individualName_3.Location = new System.Drawing.Point(63, 332);
+            this.txt_individualName_3.MaxLength = 20;
             this.txt_individualName_3.Name = "txt_individualName_3";
             this.txt_individualName_3.Size = new System.Drawing.Size(392, 47);
             this.txt_individualName_3.TabIndex = 35;
@@ -142,6 +148,7 @@ namespace CollegeTournament
             this.txt_individualName_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_individualName_2.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_individualName_2.Location = new System.Drawing.Point(63, 242);
+            this.txt_individualName_2.MaxLength = 20;
             this.txt_individualName_2.Name = "txt_individualName_2";
             this.txt_individualName_2.Size = new System.Drawing.Size(392, 47);
             this.txt_individualName_2.TabIndex = 34;
@@ -152,6 +159,7 @@ namespace CollegeTournament
             this.txt_individualName_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_individualName_1.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_individualName_1.Location = new System.Drawing.Point(63, 152);
+            this.txt_individualName_1.MaxLength = 20;
             this.txt_individualName_1.Name = "txt_individualName_1";
             this.txt_individualName_1.Size = new System.Drawing.Size(392, 47);
             this.txt_individualName_1.TabIndex = 33;

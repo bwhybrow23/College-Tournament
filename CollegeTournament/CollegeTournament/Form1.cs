@@ -6,6 +6,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -15,11 +16,14 @@ namespace CollegeTournament
     {
         DomainUpDown[] ctr_team;
         const int NUMBEROFBOXES = 20;
-        IndividualForm individualForm;
+
+        //Individual Form
+        IndividualForm IndividualForm;
 
         public teamForm()
         {
             InitializeComponent();
+            IndividualForm = new IndividualForm(this);
         }
 
         private void btn_resetScores_Click(object sender, EventArgs e)
@@ -58,7 +62,7 @@ namespace CollegeTournament
                 ctr_team[i].Width = 55;
                 ctr_team[i].Font = new Font("Calibri", 24);
 
-                for (j = 0; j <= 20; j++)
+                for (j = 0; j <= 4; j++)
                 {
                     ctr_team[i].Items.Add(j.ToString());
                 }
@@ -101,13 +105,11 @@ namespace CollegeTournament
                 }
 
                 //Input Validation
-                try
+                string value = ctr_team[i].SelectedIndex.ToString();
+
+                if(!Regex.IsMatch(value, @"^\d+$"))
                 {
-                    Int32.Parse(ctr_team[i].SelectedIndex.ToString());
-                }
-                catch
-                {
-                    MessageBox.Show("Some scores are not valid. Change the scores and try again.");
+                    MessageBox.Show("One of the values is not a number or exceeds the maximum number of 4.");
                     return;
                 }
 
@@ -164,13 +166,11 @@ namespace CollegeTournament
                 }
 
                 //Input Validation
-                try
+                string value = ctr_team[i].SelectedIndex.ToString();
+
+                if (!Regex.IsMatch(value, @"^\d+$"))
                 {
-                    Int32.Parse(ctr_team[i].SelectedIndex.ToString());
-                }
-                catch
-                {
-                    MessageBox.Show("Some scores are not valid. Change the scores and try again.");
+                    MessageBox.Show("One of the values is not a number or exceeds the maximum number of 4.");
                     return;
                 }
 
@@ -318,7 +318,7 @@ namespace CollegeTournament
             if (dialogresult == DialogResult.Yes)
             {
                 //If yes, switch to individual form
-                individualForm.Show();
+                IndividualForm.Show();
                 this.Hide();
             }
             else if (dialogresult == DialogResult.No)

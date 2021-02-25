@@ -60,6 +60,7 @@
             this.txt_teamName_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_teamName_1.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_teamName_1.Location = new System.Drawing.Point(69, 147);
+            this.txt_teamName_1.MaxLength = 20;
             this.txt_teamName_1.Name = "txt_teamName_1";
             this.txt_teamName_1.Size = new System.Drawing.Size(392, 47);
             this.txt_teamName_1.TabIndex = 1;
@@ -70,6 +71,7 @@
             this.txt_teamName_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_teamName_2.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_teamName_2.Location = new System.Drawing.Point(69, 237);
+            this.txt_teamName_2.MaxLength = 20;
             this.txt_teamName_2.Name = "txt_teamName_2";
             this.txt_teamName_2.Size = new System.Drawing.Size(392, 47);
             this.txt_teamName_2.TabIndex = 2;
@@ -80,6 +82,7 @@
             this.txt_teamName_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_teamName_3.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_teamName_3.Location = new System.Drawing.Point(69, 327);
+            this.txt_teamName_3.MaxLength = 20;
             this.txt_teamName_3.Name = "txt_teamName_3";
             this.txt_teamName_3.Size = new System.Drawing.Size(392, 47);
             this.txt_teamName_3.TabIndex = 3;
@@ -90,6 +93,7 @@
             this.txt_teamName_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_teamName_4.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_teamName_4.Location = new System.Drawing.Point(69, 417);
+            this.txt_teamName_4.MaxLength = 20;
             this.txt_teamName_4.Name = "txt_teamName_4";
             this.txt_teamName_4.Size = new System.Drawing.Size(392, 47);
             this.txt_teamName_4.TabIndex = 4;

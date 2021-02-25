@@ -6,6 +6,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -15,14 +16,16 @@ namespace CollegeTournament
     {
         DomainUpDown[] ctr_individual;
         const int NUMBEROFBOXES = 20;
-        teamForm mainForm;
 
-        public IndividualForm()
+        teamForm teamForm;
+
+        public IndividualForm(teamForm form)
         {
             InitializeComponent();
+            teamForm = form;
         }
 
-        private void btn_resetScores_Click(object sender, EventArgs e)
+        private void btn_resetScores_Click_1(object sender, EventArgs e)
         {
             // Message pop-up to confirm
             DialogResult dialogresult = MessageBox.Show("Are you sure you would like to reset all scores?", "Reset Scores", MessageBoxButtons.YesNo);
@@ -58,7 +61,7 @@ namespace CollegeTournament
                 ctr_individual[i].Width = 55;
                 ctr_individual[i].Font = new Font("Calibri", 24);
 
-                for (j = 0; j <= 20; j++)
+                for (j = 0; j <= 4; j++)
                 {
                     ctr_individual[i].Items.Add(j.ToString());
                 }
@@ -68,7 +71,7 @@ namespace CollegeTournament
             }
         }
 
-        private void btn_calculateWinner_Click(object sender, EventArgs e)
+        private void btn_calculateWinner_Click_1(object sender, EventArgs e)
         {
             // Input Validation
             if (txt_individualName_1.Text == "" || txt_individualName_2.Text == "" || txt_individualName_3.Text == "" || txt_individualName_4.Text == "")
@@ -101,13 +104,11 @@ namespace CollegeTournament
                 }
 
                 //Input Validation
-                try
+                string value = ctr_individual[i].SelectedIndex.ToString();
+
+                if (!Regex.IsMatch(value, @"^\d+$"))
                 {
-                    Int32.Parse(ctr_individual[i].SelectedIndex.ToString());
-                }
-                catch
-                {
-                    MessageBox.Show("Some scores are not valid. Change the scores and try again.");
+                    MessageBox.Show("One of the values is not a number or exceeds the maximum number of 4.");
                     return;
                 }
 
@@ -164,13 +165,11 @@ namespace CollegeTournament
                 }
 
                 //Input Validation
-                try
+                string value = ctr_individual[i].SelectedIndex.ToString();
+
+                if (!Regex.IsMatch(value, @"^\d+$"))
                 {
-                    Int32.Parse(ctr_individual[i].SelectedIndex.ToString());
-                }
-                catch
-                {
-                    MessageBox.Show("Some scores are not valid. Change the scores and try again.");
+                    MessageBox.Show("One of the values is not a number or exceeds the maximum number of 4.");
                     return;
                 }
 
@@ -318,7 +317,7 @@ namespace CollegeTournament
             if (dialogresult == DialogResult.Yes)
             {
                 //If yes, switch to individual form
-                mainForm.Show();
+                teamForm.Show();
                 this.Hide();
             }
             else if (dialogresult == DialogResult.No)
