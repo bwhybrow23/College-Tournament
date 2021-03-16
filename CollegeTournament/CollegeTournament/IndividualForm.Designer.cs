@@ -41,6 +41,12 @@ namespace CollegeTournament
             this.txt_individualName_2 = new System.Windows.Forms.TextBox();
             this.txt_individualName_1 = new System.Windows.Forms.TextBox();
             this.lbl_title = new System.Windows.Forms.Label();
+            this.txt_individualName_8 = new System.Windows.Forms.TextBox();
+            this.txt_individualName_7 = new System.Windows.Forms.TextBox();
+            this.txt_individualName_6 = new System.Windows.Forms.TextBox();
+            this.txt_individualName_5 = new System.Windows.Forms.TextBox();
+            this.txt_individualName_10 = new System.Windows.Forms.TextBox();
+            this.txt_individualName_9 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txt_importData
@@ -103,7 +109,7 @@ namespace CollegeTournament
             this.lbl_teamScores.AutoSize = true;
             this.lbl_teamScores.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(195)))), ((int)(((byte)(230)))));
             this.lbl_teamScores.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_teamScores.Location = new System.Drawing.Point(511, 103);
+            this.lbl_teamScores.Location = new System.Drawing.Point(509, 66);
             this.lbl_teamScores.Name = "lbl_teamScores";
             this.lbl_teamScores.Size = new System.Drawing.Size(391, 39);
             this.lbl_teamScores.TabIndex = 38;
@@ -114,7 +120,7 @@ namespace CollegeTournament
             this.lbl_individualNames.AutoSize = true;
             this.lbl_individualNames.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(195)))), ((int)(((byte)(230)))));
             this.lbl_individualNames.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_individualNames.Location = new System.Drawing.Point(61, 103);
+            this.lbl_individualNames.Location = new System.Drawing.Point(56, 66);
             this.lbl_individualNames.Name = "lbl_individualNames";
             this.lbl_individualNames.Size = new System.Drawing.Size(241, 39);
             this.lbl_individualNames.TabIndex = 37;
@@ -124,44 +130,44 @@ namespace CollegeTournament
             // 
             this.txt_individualName_4.AcceptsTab = true;
             this.txt_individualName_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_individualName_4.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_individualName_4.Location = new System.Drawing.Point(63, 422);
+            this.txt_individualName_4.Font = new System.Drawing.Font("Calibri", 18F);
+            this.txt_individualName_4.Location = new System.Drawing.Point(63, 246);
             this.txt_individualName_4.MaxLength = 20;
             this.txt_individualName_4.Name = "txt_individualName_4";
-            this.txt_individualName_4.Size = new System.Drawing.Size(392, 47);
+            this.txt_individualName_4.Size = new System.Drawing.Size(392, 37);
             this.txt_individualName_4.TabIndex = 36;
             // 
             // txt_individualName_3
             // 
             this.txt_individualName_3.AcceptsTab = true;
             this.txt_individualName_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_individualName_3.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_individualName_3.Location = new System.Drawing.Point(63, 332);
+            this.txt_individualName_3.Font = new System.Drawing.Font("Calibri", 18F);
+            this.txt_individualName_3.Location = new System.Drawing.Point(63, 203);
             this.txt_individualName_3.MaxLength = 20;
             this.txt_individualName_3.Name = "txt_individualName_3";
-            this.txt_individualName_3.Size = new System.Drawing.Size(392, 47);
+            this.txt_individualName_3.Size = new System.Drawing.Size(392, 37);
             this.txt_individualName_3.TabIndex = 35;
             // 
             // txt_individualName_2
             // 
             this.txt_individualName_2.AcceptsTab = true;
             this.txt_individualName_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_individualName_2.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_individualName_2.Location = new System.Drawing.Point(63, 242);
+            this.txt_individualName_2.Font = new System.Drawing.Font("Calibri", 18F);
+            this.txt_individualName_2.Location = new System.Drawing.Point(63, 160);
             this.txt_individualName_2.MaxLength = 20;
             this.txt_individualName_2.Name = "txt_individualName_2";
-            this.txt_individualName_2.Size = new System.Drawing.Size(392, 47);
+            this.txt_individualName_2.Size = new System.Drawing.Size(392, 37);
             this.txt_individualName_2.TabIndex = 34;
             // 
             // txt_individualName_1
             // 
             this.txt_individualName_1.AcceptsTab = true;
             this.txt_individualName_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_individualName_1.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_individualName_1.Location = new System.Drawing.Point(63, 152);
+            this.txt_individualName_1.Font = new System.Drawing.Font("Calibri", 18F);
+            this.txt_individualName_1.Location = new System.Drawing.Point(63, 117);
             this.txt_individualName_1.MaxLength = 20;
             this.txt_individualName_1.Name = "txt_individualName_1";
-            this.txt_individualName_1.Size = new System.Drawing.Size(392, 47);
+            this.txt_individualName_1.Size = new System.Drawing.Size(392, 37);
             this.txt_individualName_1.TabIndex = 33;
             // 
             // lbl_title
@@ -176,6 +182,72 @@ namespace CollegeTournament
             this.lbl_title.Text = "Scoring System - Individual Events";
             this.lbl_title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // txt_individualName_8
+            // 
+            this.txt_individualName_8.AcceptsTab = true;
+            this.txt_individualName_8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_individualName_8.Font = new System.Drawing.Font("Calibri", 18F);
+            this.txt_individualName_8.Location = new System.Drawing.Point(63, 418);
+            this.txt_individualName_8.MaxLength = 20;
+            this.txt_individualName_8.Name = "txt_individualName_8";
+            this.txt_individualName_8.Size = new System.Drawing.Size(392, 37);
+            this.txt_individualName_8.TabIndex = 47;
+            // 
+            // txt_individualName_7
+            // 
+            this.txt_individualName_7.AcceptsTab = true;
+            this.txt_individualName_7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_individualName_7.Font = new System.Drawing.Font("Calibri", 18F);
+            this.txt_individualName_7.Location = new System.Drawing.Point(63, 375);
+            this.txt_individualName_7.MaxLength = 20;
+            this.txt_individualName_7.Name = "txt_individualName_7";
+            this.txt_individualName_7.Size = new System.Drawing.Size(392, 37);
+            this.txt_individualName_7.TabIndex = 46;
+            // 
+            // txt_individualName_6
+            // 
+            this.txt_individualName_6.AcceptsTab = true;
+            this.txt_individualName_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_individualName_6.Font = new System.Drawing.Font("Calibri", 18F);
+            this.txt_individualName_6.Location = new System.Drawing.Point(63, 332);
+            this.txt_individualName_6.MaxLength = 20;
+            this.txt_individualName_6.Name = "txt_individualName_6";
+            this.txt_individualName_6.Size = new System.Drawing.Size(392, 37);
+            this.txt_individualName_6.TabIndex = 45;
+            // 
+            // txt_individualName_5
+            // 
+            this.txt_individualName_5.AcceptsTab = true;
+            this.txt_individualName_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_individualName_5.Font = new System.Drawing.Font("Calibri", 18F);
+            this.txt_individualName_5.Location = new System.Drawing.Point(63, 289);
+            this.txt_individualName_5.MaxLength = 20;
+            this.txt_individualName_5.Name = "txt_individualName_5";
+            this.txt_individualName_5.Size = new System.Drawing.Size(392, 37);
+            this.txt_individualName_5.TabIndex = 44;
+            // 
+            // txt_individualName_10
+            // 
+            this.txt_individualName_10.AcceptsTab = true;
+            this.txt_individualName_10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_individualName_10.Font = new System.Drawing.Font("Calibri", 18F);
+            this.txt_individualName_10.Location = new System.Drawing.Point(63, 504);
+            this.txt_individualName_10.MaxLength = 20;
+            this.txt_individualName_10.Name = "txt_individualName_10";
+            this.txt_individualName_10.Size = new System.Drawing.Size(392, 37);
+            this.txt_individualName_10.TabIndex = 49;
+            // 
+            // txt_individualName_9
+            // 
+            this.txt_individualName_9.AcceptsTab = true;
+            this.txt_individualName_9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_individualName_9.Font = new System.Drawing.Font("Calibri", 18F);
+            this.txt_individualName_9.Location = new System.Drawing.Point(63, 461);
+            this.txt_individualName_9.MaxLength = 20;
+            this.txt_individualName_9.Name = "txt_individualName_9";
+            this.txt_individualName_9.Size = new System.Drawing.Size(392, 37);
+            this.txt_individualName_9.TabIndex = 48;
+            // 
             // IndividualForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -183,6 +255,12 @@ namespace CollegeTournament
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImage = global::CollegeTournament.Properties.Resources.UI_Design;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.txt_individualName_10);
+            this.Controls.Add(this.txt_individualName_9);
+            this.Controls.Add(this.txt_individualName_8);
+            this.Controls.Add(this.txt_individualName_7);
+            this.Controls.Add(this.txt_individualName_6);
+            this.Controls.Add(this.txt_individualName_5);
             this.Controls.Add(this.txt_importData);
             this.Controls.Add(this.btn_exportData);
             this.Controls.Add(this.btn_switchToTeam);
@@ -221,5 +299,11 @@ namespace CollegeTournament
         private System.Windows.Forms.TextBox txt_individualName_2;
         private System.Windows.Forms.TextBox txt_individualName_1;
         private System.Windows.Forms.Label lbl_title;
+        private System.Windows.Forms.TextBox txt_individualName_8;
+        private System.Windows.Forms.TextBox txt_individualName_7;
+        private System.Windows.Forms.TextBox txt_individualName_6;
+        private System.Windows.Forms.TextBox txt_individualName_5;
+        private System.Windows.Forms.TextBox txt_individualName_10;
+        private System.Windows.Forms.TextBox txt_individualName_9;
     }
 }
